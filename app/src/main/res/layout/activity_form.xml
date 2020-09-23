@@ -17,7 +17,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/view_username_label"
+        app:layout_constraintStart_toEndOf="@+id/view_password_label"
         app:layout_constraintTop_toTopOf="@+id/view_password_label"
         app:layout_constraintVertical_bias="0.0" />
 
@@ -32,17 +32,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/view_username_label"
+        app:layout_constraintStart_toEndOf="@+id/view_password_label"
         app:layout_constraintTop_toTopOf="@+id/view_confirm_label"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/view_username_label"
+        android:id="@+id/view_name_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        android:text="@string/app_field_username"
+        android:text="@string/app_field_name"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_username_label"
+        app:layout_constraintTop_toBottomOf="@+id/view_name_label"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -110,7 +110,7 @@
         app:layout_constraintVertical_bias="0.65999997" />
 
     <EditText
-        android:id="@+id/view_input_username"
+        android:id="@+id/view_input_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -120,8 +120,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/view_username_label"
-        app:layout_constraintTop_toTopOf="@+id/view_username_label"
+        app:layout_constraintStart_toEndOf="@+id/view_password_label"
+        app:layout_constraintTop_toTopOf="@+id/view_name_label"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
@@ -134,7 +134,7 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/view_username_label"
+        app:layout_constraintStart_toEndOf="@+id/view_password_label"
         app:layout_constraintTop_toTopOf="@+id/view_email_label"
         app:layout_constraintVertical_bias="0.0" />
 
